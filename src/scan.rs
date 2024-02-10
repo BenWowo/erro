@@ -29,8 +29,6 @@ pub struct Lexer {
     pub ch: char,             // Current read character
 }
 
-fn scan_file() {}
-
 impl Lexer {
     pub fn new(input: Vec<char>) -> Self {
         Lexer {
